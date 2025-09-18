@@ -18,7 +18,7 @@ class CarrinhoCompra{
         double total = calcularTotal();
         if (total >=200){
             return total * 0.1;
-        }return 0
+        }return 0;
     }
     double calcularValorFinal(){
         return calcularTotal()-calcularDesconto();
